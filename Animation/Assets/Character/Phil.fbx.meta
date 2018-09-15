@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 41f97e7ff58af3f4ea81c5898d1488eb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Face1
+    100004: Fingers1
+    100006: Gaurd1
+    100008: Joints1
+    100010: Metal_Flame1
+    100012: //RootNode
+    100014: Shoulder1
+    100016: Stubs1
+    100018: Thrust1
+    100020: Thrust_Gaurd1
+    400000: Body1
+    400002: Face1
+    400004: Fingers1
+    400006: Gaurd1
+    400008: Joints1
+    400010: Metal_Flame1
+    400012: //RootNode
+    400014: Shoulder1
+    400016: Stubs1
+    400018: Thrust1
+    400020: Thrust_Gaurd1
+    2100000: Body
+    2100002: Shoulder
+    2100004: Face
+    2100006: Metal_Flame
+    2100008: Stubs
+    2100010: Gaurd
+    2100012: Fingers
+    2100014: Thrust_Gaurd
+    2100016: Thrust
+    2100018: Joints
+    2300000: Body1
+    2300002: Face1
+    2300004: Fingers1
+    2300006: Gaurd1
+    2300008: Joints1
+    2300010: Metal_Flame1
+    2300012: Shoulder1
+    2300014: Stubs1
+    2300016: Thrust1
+    2300018: Thrust_Gaurd1
+    3300000: Body1
+    3300002: Face1
+    3300004: Fingers1
+    3300006: Gaurd1
+    3300008: Joints1
+    3300010: Metal_Flame1
+    3300012: Shoulder1
+    3300014: Stubs1
+    3300016: Thrust1
+    3300018: Thrust_Gaurd1
+    4300000: Body1
+    4300002: Shoulder1
+    4300004: Face1
+    4300006: Metal_Flame1
+    4300008: Stubs1
+    4300010: Gaurd1
+    4300012: Fingers1
+    4300014: Thrust_Gaurd1
+    4300016: Thrust1
+    4300018: Joints1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: f955878231c58664cb16e01978d203e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face
+    second: {fileID: 2100000, guid: f73e18fabb67f1349a520d15c4d2f851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fingers
+    second: {fileID: 2100000, guid: ee8e431690bb4ea45840208f131d53f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gaurd
+    second: {fileID: 2100000, guid: 8a93ce45cc5ae3440ac6537094cf61f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joints
+    second: {fileID: 2100000, guid: 504d212c8aec00044a1e11c2c014a84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Flame
+    second: {fileID: 2100000, guid: 8a2545a1fb163f6498d496fd005a1a16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoulder
+    second: {fileID: 2100000, guid: 0bcfbbd6e8d11dd4aaed09e476265bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stubs
+    second: {fileID: 2100000, guid: f9eefbb0c08065049b34c787e763137e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thrust
+    second: {fileID: 2100000, guid: 31bd2642d567fd246a6b31b14fc9399d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thrust_Gaurd
+    second: {fileID: 2100000, guid: 744ae7834d71791478d85cf146123695, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
