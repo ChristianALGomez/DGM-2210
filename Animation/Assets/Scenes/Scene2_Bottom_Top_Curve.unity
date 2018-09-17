@@ -229,13 +229,75 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 89166598}
-  m_LocalRotation: {x: -0.37548363, y: 0.0017093256, z: 0.0006924434, w: 0.92682725}
+  m_LocalRotation: {x: -0.37548363, y: 0.001709351, z: 0.0006925059, w: 0.92682725}
   m_LocalPosition: {x: -0.6191407, y: -4.830078, z: -7.7890625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &161932364
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.2890625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.330078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -5.7890625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.48501852
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.010909137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.13683707
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.8636629
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274946749253176, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_Name
+      value: Directional Light (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 359.6987
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.000003443298
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710079886231802, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.000001804952
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274946749253176, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9cd73b7a159158b4085922dd92b4ba2f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &413834009
 Prefab:
   m_ObjectHideFlags: 0
@@ -885,6 +947,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1996339521503296, guid: e458345acd56d3b46a0f81160f84951f,
     type: 2}
   m_PrefabInternal: {fileID: 413834009}
+--- !u!1 &2060928106 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1274946749253176, guid: 9cd73b7a159158b4085922dd92b4ba2f,
+    type: 2}
+  m_PrefabInternal: {fileID: 161932364}
 --- !u!1 &2065046418
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +1014,8 @@ PlayableDirector:
     value: {fileID: 60684459}
   - key: {fileID: 114540314154537454, guid: 4cda546b7fafbce4e86af11209c17273, type: 2}
     value: {fileID: 1631739213}
+  - key: {fileID: 114913693774936050, guid: 4cda546b7fafbce4e86af11209c17273, type: 2}
+    value: {fileID: 2060928106}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &2065046421
