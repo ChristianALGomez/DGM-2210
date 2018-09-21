@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114226429580251784}
---- !u!114 &114005465515098046
+  m_Settings: {fileID: 114650553303539800}
+--- !u!114 &114177246241478778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -21,11 +21,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: ea4a447d-db57-4cc6-b079-9cd6789c8462
+  m_Name: ad977953-adf6-4227-aed5-915cf0202c56
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: 9b2c6f1f-e5d2-48a1-b441-bde596f7d13a
-  m_OutputSize: 1080
+  m_Id: 46965706-da79-4188-957e-d78b1ef02198
+  m_OutputSize: 0
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
@@ -33,7 +33,7 @@ MonoBehaviour:
   m_FlipFinalOutput: 0
   m_AllowTransparency: 0
   m_CaptureUI: 0
---- !u!114 &114226429580251784
+--- !u!114 &114650553303539800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_AssetID: 69ecb2af96954fe4d84ec713c2f2e84b
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
-  m_FrameRate: 24
-  m_FrameRateExact: 8
+  m_FrameRate: 30
+  m_FrameRateExact: 1
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
@@ -56,13 +56,13 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: Back
+    m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
-    m_root: 1
-    m_leaf: /RenderFrames
+    m_root: 0
+    m_leaf: C:/Users/10721401/Desktop/Phil_Renders/Front
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114005465515098046}
+    - {fileID: 114177246241478778}
     ownerRecorderSettingsAssetId: 69ecb2af96954fe4d84ec713c2f2e84b
   m_RecorderTypeName: UnityEngine.Recorder.ImageRecorder, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
