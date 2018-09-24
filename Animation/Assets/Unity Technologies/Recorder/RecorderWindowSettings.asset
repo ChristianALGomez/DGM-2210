@@ -58,8 +58,8 @@ MonoBehaviour:
   m_BaseFileName:
     m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
-    m_root: 0
-    m_leaf: C:/Users/10721401/Desktop/Phil_Renders/Front
+    m_root: 1
+    m_leaf: /RenderFrames/Thrusters
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114177246241478778}
