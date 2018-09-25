@@ -25,7 +25,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 46965706-da79-4188-957e-d78b1ef02198
-  m_OutputSize: 0
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
@@ -59,7 +59,7 @@ MonoBehaviour:
     m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
     m_root: 1
-    m_leaf: /RenderFrames/Thrusters
+    m_leaf: /RenderFrames/Thrusters_2
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114177246241478778}
